@@ -1,0 +1,7 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/font.css');
+
+
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+  }
