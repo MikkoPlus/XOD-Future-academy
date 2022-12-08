@@ -1,0 +1,9 @@
+.menu__item {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.menu__item:last-of-type {
+  margin-right: 0;
+}

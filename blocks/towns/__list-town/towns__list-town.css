@@ -1,0 +1,13 @@
+.towns__list-town {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4F4F4F;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.towns__list-town:hover {
+    color:#00093C;
+    font-weight: 500;
+}

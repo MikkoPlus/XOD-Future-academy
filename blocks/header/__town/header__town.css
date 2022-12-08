@@ -1,0 +1,30 @@
+.header__town {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    position: relative;
+}
+  
+.header__town::before {
+    content: '';
+    position: absolute;
+    background: url('../../../images/icons/menu-icons/arrow.svg') center center/contain no-repeat;
+    width: 10px;
+    height: 8px;
+    top: 50%;
+    transform: translateY(-25%);
+    right: -15px;
+}
+  
+.header__town::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}

@@ -1,11 +1,39 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/font.css');
 
+@import url('../blocks/page/page.css');
+@import url('../blocks/container/container.css');
 
-body {
-    font-family: "Montserrat", "Arial", sans-serif;
-  }
 
-  h1{
-    font-size: 500px;
-  }
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo-link/header__logo-link.css');
+@import url('../blocks/header/__logo/header__logo.css');
+
+@import url('../blocks/header/__menu/header__menu.css');
+
+@import url('../blocks/header/__cities/header__cities.css');
+@import url('../blocks/header/__cities/_active/header__cities_active.css');
+@import url('../blocks/header/__cities-geo-icon/header__cities-geo-icon.css');
+
+@import url('../blocks/header/__town/header__town.css');
+
+@import url('../blocks/header/__contact-number/header__contact-number.css');
+
+@import url('../blocks/header/__input/header__input.css');
+@import url('../blocks/header/__input-icon/header__input-icon.css');
+@import url('../blocks/header/__input-link/header__input-link.css');
+
+
+@import url('../blocks/menu/__list/menu__list.css');
+@import url('../blocks/menu/__item/menu__item.css');
+@import url('../blocks/menu/__courses-ico/menu__courses-ico.css');
+@import url('../blocks/menu/__link/menu__link.css');
+
+
+@import url('../blocks/towns/towns.css');
+@import url('../blocks/towns/_visible/towns_visible.css');
+@import url('../blocks/towns/__heading/towns__heading.css');
+@import url('../blocks/towns/__chose-town/towns__choose-town.css');
+@import url('../blocks/towns/__close/towns__close.css');
+@import url('../blocks/towns/__list/towns__list.css');
+@import url('../blocks/towns/__list-town/towns__list-town.css');

@@ -1,0 +1,8 @@
+.towns__list {
+    margin: 25px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, 180px);
+    column-gap: 20px;
+  }

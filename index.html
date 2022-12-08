@@ -7,8 +7,80 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>ХОД</title>
 </head>
-<body>
-    <h1>Hello world!</h1>
+<body class="page">
+    <header class="header">
+
+        <a class="header__logo-link" href="#">
+            <img class="header__logo" src="./images/icons/logo/Logo-header.svg" alt="Академия будущего">
+        </a>
+
+        <nav class="header__menu menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <img class="menu__courses-ico" src="./images/icons/menu-icons/two-rectangles.svg" alt="Два прямоугольник">
+                    <a class="menu__link" href="#">Все курсы</a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Мероприятия</a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Базы знаний</a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Карьера</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__cities">
+            <img class="header__cities-geo-icon" src="./images/icons/menu-icons/geolocation-ico.svg" alt="Геолокация">
+            <p class="header__town">Нижний Новгород</p>
+        </div>
+
+        <nav class="towns towns_visible">
+            <div class="towns__heading">
+                <p class="towns__choose-town">Выберите свой город</p>
+                <img class="towns__close" src="./images/icons/menu-icons/close-ico.svg" alt="Закрыть">
+            </div>
+            <ul class="towns__list">
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+                <li class="towns__list-item">
+                    <a href="#" class="towns__list-town">Нижний Новгород</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a class="header__contact-number" href="tel:88009503398 ">8 800 950-33-98 </a>
+
+        <a href="#" class="header__input">
+            <img class="header__input-icon" src="./images/icons/menu-icons/man-icon.svg" alt="Иконка">
+            <p class="header__input-link">Войти</p>
+        </a>
+
+    </header>
     <script src="./js/script.js"></script>
 </body>
 </html>

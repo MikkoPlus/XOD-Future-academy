@@ -1,0 +1,9 @@
+.header__cities {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    margin-right: 58px;
+    height: 70px;
+    position: relative;
+}

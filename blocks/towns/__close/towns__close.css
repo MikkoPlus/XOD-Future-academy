@@ -1,0 +1,6 @@
+.towns__close {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+    cursor: pointer;
+  }
