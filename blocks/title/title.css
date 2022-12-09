@@ -1,0 +1,10 @@
+.title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 67px;
+    color: #FFFFFF;
+    max-width: 575px;
+    text-align: left;
+}

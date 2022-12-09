@@ -3,10 +3,10 @@
     position: absolute;
     width: 100%;
     left: 0;
-    top: 100%;
+    top: 99%;
     padding: 20px;
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 0px 0px 6px 6px;
 }
   
 .towns::after {

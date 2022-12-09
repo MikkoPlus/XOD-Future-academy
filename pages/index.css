@@ -37,3 +37,11 @@
 @import url('../blocks/towns/__close/towns__close.css');
 @import url('../blocks/towns/__list/towns__list.css');
 @import url('../blocks/towns/__list-town/towns__list-town.css');
+
+@import url('../blocks/content/content.css');
+
+@import url('../blocks/main-screen/main-screen.css');
+@import url('../blocks/main-screen/__subtitle/main-screen__subtitle.css');
+@import url('../blocks/main-screen/__description/main-screen__description.css');
+
+@import url('../blocks/title/title.css');

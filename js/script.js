@@ -2,7 +2,7 @@
 
 setTimeout(function(){
 	location.reload();
-}, 25000);
+}, 125000);
 
 window.addEventListener('DOMContentLoaded', () => {
 
@@ -31,21 +31,28 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function townListHandler () {
 		const townsList = document.querySelector('.towns'),
-			closeIcon = townsList.querySelector('.towns__close');	
+			  closeIcon = townsList.querySelector('.towns__close'),
+			  townIndicator = document.querySelector('.header__cities');
 
 		function closeTownList () {
-		closeIcon.addEventListener('click', () => townsList.classList.remove('towns_visible'));
+		closeIcon.addEventListener('click', () => {
+			townsList.classList.remove('towns_visible');
+			townIndicator.classList.remove('header__cities_active');
+		
+		});
 		}
 
 		townTrigger.addEventListener('click', (e) => {
 			e.preventDefault();
 
 			townsList.classList.toggle('towns_visible');
+			townIndicator.classList.toggle('header__cities_active');
 			if (townsList.classList.contains('towns_visible')) {
 				setTimeout(function() {
 					townsList.closest('.page').addEventListener('click', event => {
 						if (!event.target.closest('.header')) {
 							townsList.classList.remove('towns_visible');
+							townIndicator.classList.remove('header__cities_active');
 						}
 					});
 				}, 500);

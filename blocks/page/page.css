@@ -1,6 +1,10 @@
 .page {
     font-family: "Montserrat", "Arial", sans-serif;
     max-width: 1920px;
-    margin: 0 auto;
-    min-height: 500px;
+}
+
+@media (min-width: 1800px) {
+    .page {
+        margin: 0 auto;
+    }
 }
