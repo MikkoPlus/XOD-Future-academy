@@ -1,0 +1,5 @@
+.beginning__choise {
+    display: flex;
+    flex-direction: column;
+    flex: 880px 1 1;
+}

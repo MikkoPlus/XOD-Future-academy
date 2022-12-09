@@ -45,3 +45,22 @@
 @import url('../blocks/main-screen/__description/main-screen__description.css');
 
 @import url('../blocks/title/title.css');
+
+@import url('../blocks/beginning/beginning.css');
+@import url('../blocks/beginning/__container/beginning__container.css');
+@import url('../blocks/beginning/__advice/beginning__advice.css');
+@import url('../blocks/beginning/__advice-title/beginning__advice-title.css');
+@import url('../blocks/beginning/__advice-paragraph/beginning__advice-paragraph.css');
+@import url('../blocks/beginning/__choise/beginning__choise.css');
+@import url('../blocks/beginning/__ages/beginning__ages.css');
+@import url('../blocks/beginning/__directions-list/beginning__directions-list.css');
+@import url('../blocks/beginning/__direction-item/beginning__directions-item.css');
+@import url('../blocks/beginning/__directions-link/beginning__directions-link.css');
+
+@import url('../blocks/age-card/age-card.css');
+@import url('../blocks/age-card/__img/age-card__img.css');
+@import url('../blocks/age-card/__title/age-card__title.css');
+@import url('../blocks/age-card/__age/age-card__age.css');
+
+@import url('../blocks/scroll-bar/scroll-bar.css');
+@import url('../blocks/scroll-bar/__scroll/scroll-bar__scroll.css');

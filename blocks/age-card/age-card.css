@@ -1,0 +1,7 @@
+.age-card {
+    display: grid;
+    grid-template-columns: 50px minmax(40px, 100px);
+    grid-template-rows: repeat(2, 25px);
+    column-gap: 16px;
+    align-content: end;
+}

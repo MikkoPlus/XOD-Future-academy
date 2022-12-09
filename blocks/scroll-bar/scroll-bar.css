@@ -1,0 +1,6 @@
+.scroll-bar {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    position: relative;
+    margin-top: 20px;
+}

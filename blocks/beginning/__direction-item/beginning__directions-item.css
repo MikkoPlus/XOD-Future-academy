@@ -1,0 +1,27 @@
+.beginning__directions-item {
+    padding: 16px 18px;
+    background: #FFF;
+    border-radius: 6px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.beginning__directions-item::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    z-index: -1;
+    transition: opacity .3s ease 0s;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+    opacity: 0.3;
+    filter: blur(5px);
+}
+
+.beginning__directions-item:hover::after {
+    opacity: 0.6;
+    filter: blur(10px);
+    cursor: pointer;
+}

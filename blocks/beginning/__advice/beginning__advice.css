@@ -1,0 +1,19 @@
+.beginning__advice {
+    width: 260px;
+    height: 217px;
+    margin-right: 20px;
+    padding: 20px 20px 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.beginning__advice::after {
+    content: '';
+    position: absolute;
+    top:0;
+    right: 15%;
+    width: 300px;
+    height: 354px;
+    background: url('../../../images/begininng/beginning-owl.svg');
+    z-index: -1;
+}

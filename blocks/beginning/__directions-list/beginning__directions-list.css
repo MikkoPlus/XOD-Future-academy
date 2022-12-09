@@ -1,0 +1,9 @@
+.beginning__directions-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: space-between;
+    min-height: 126px;
+}

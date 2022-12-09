@@ -1,0 +1,8 @@
+.scroll-bar__scroll {
+    width: 160px;
+    height: 4px;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

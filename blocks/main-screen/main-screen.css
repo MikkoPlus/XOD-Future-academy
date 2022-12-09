@@ -1,6 +1,6 @@
 .main-screen {
     padding: 117px 0px 221px;
-    width: 100%;
+    max-width: 100%;
     background: url('../../images/bg/main-screen-bg.png') 45% top/cover no-repeat;
     position: relative;
     z-index: -2;
