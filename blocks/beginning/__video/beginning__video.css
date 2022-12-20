@@ -1,0 +1,6 @@
+.beginning__video {
+    margin: 90px auto 0;
+    padding-top: 58px;
+    min-height: 620px;
+    background: url('../../../images/video/beginnig-video_bg.png') center center/contain no-repeat;
+}

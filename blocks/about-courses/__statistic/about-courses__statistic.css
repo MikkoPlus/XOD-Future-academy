@@ -1,0 +1,7 @@
+.about-courses__statistic {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    list-style: none;
+    margin-top: 40px;
+}

@@ -1,9 +1,8 @@
-'use strict';
+'use strict'; // Выведите последний элемент
 
-setTimeout(function(){
-	location.reload();
-}, 125000);
-
+// setTimeout(function(){
+// 	location.reload();
+// }, 125000);
 window.addEventListener('DOMContentLoaded', () => {
 
 	function closeOnEscape (currentClass, targetClass) {

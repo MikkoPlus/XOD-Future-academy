@@ -41,6 +41,8 @@
 @import url('../blocks/content/content.css');
 
 @import url('../blocks/main-screen/main-screen.css');
+@import url('../blocks/main-screen/__title-overlay/main-screen___title-overlay.css');
+@import url('../blocks/main-screen/__container/main-screen__container.css');
 @import url('../blocks/main-screen/__subtitle/main-screen__subtitle.css');
 @import url('../blocks/main-screen/__description/main-screen__description.css');
 
@@ -56,6 +58,8 @@
 @import url('../blocks/beginning/__directions-list/beginning__directions-list.css');
 @import url('../blocks/beginning/__direction-item/beginning__directions-item.css');
 @import url('../blocks/beginning/__directions-link/beginning__directions-link.css');
+@import url('../blocks/beginning/__video/beginning__video.css');
+@import url('../blocks/beginning/__video-image/beginning__video-image.css');
 
 @import url('../blocks/age-card/age-card.css');
 @import url('../blocks/age-card/__img/age-card__img.css');
@@ -64,3 +68,37 @@
 
 @import url('../blocks/scroll-bar/scroll-bar.css');
 @import url('../blocks/scroll-bar/__scroll/scroll-bar__scroll.css');
+
+@import url('../blocks/about-courses/about-courses.css');
+@import url('../blocks/about-courses/__title/about-courses__title.css');
+@import url('../blocks/about-courses/__statistic/about-courses__statistic.css');
+@import url('../blocks/about-courses/__stat/about-corses__stat.css');
+@import url('../blocks/about-courses/__total/about-courses__total.css');
+@import url('../blocks/about-courses/__total-descr/about-courses__total-descr.css');
+@import url('../blocks/about-courses/__grid/about-courses__grid.css');
+
+
+@import url('../blocks/grid/grid.css');
+@import url('../blocks/grid/__item/grid__item.css');
+@import url('../blocks/grid/__item/_color/grid__item_color_orange.css');
+@import url('../blocks/grid/__item/_color/grid__item_color_blue.css');
+@import url('../blocks/grid/__item/_color/grid__item_color_green.css');
+@import url('../blocks/grid/__item/_color/grid__item_color_pink.css');
+@import url('../blocks/grid/__item/_color/grid__item_color_yellow.css');
+@import url('../blocks/grid/__item/_column/grid__item_column.css');
+@import url('../blocks/grid/__item/_mini/grid__item_mini.css');
+
+@import url('../blocks/grid/__date/grid__date.css');
+@import url('../blocks/grid/__date-num/grid__date-num.css');
+@import url('../blocks/grid/__date-month/grid__date-month.css');
+
+@import url('../blocks/grid/__title/grid__title.css');
+@import url('../blocks/grid/__title/_big/grid__title_big.css');
+
+@import url('../blocks/grid/__descr/grid__descr.css');
+@import url('../blocks/grid/__descr/_column/grid__descr_column.css');
+@import url('../blocks/grid/__btn/grid__btn.css');
+@import url('../blocks/grid/__btn/_blue/grid__btn_blue.css');
+@import url('../blocks/grid/__img/grid__img.css');
+@import url('../blocks/grid/__img/_mr/grid__img_mr.css');
+@import url('../blocks/text-align/text-align_left.css');

@@ -1,0 +1,7 @@
+.about-courses__total {
+    max-height: 105px;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    justify-self: start;
+}

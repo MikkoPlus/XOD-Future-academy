@@ -1,0 +1,10 @@
+.about-corses__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.about-corses__stat:nth-child(2) {
+    margin: 0 122px;
+}

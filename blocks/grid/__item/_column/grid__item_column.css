@@ -1,0 +1,5 @@
+.grid__item_column {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 33px 40px 50px;
+}

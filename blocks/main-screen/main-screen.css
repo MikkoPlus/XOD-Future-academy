@@ -1,14 +1,6 @@
 .main-screen {
-    padding: 117px 0px 221px;
     max-width: 100%;
-    background: url('../../images/bg/main-screen-bg.png') 45% top/cover no-repeat;
+    background: url('../../images/bg/main-screen-overlay.png') 45% top/cover no-repeat;
     position: relative;
-    z-index: -2;
-    padding-left: 20px;
-}
-
-@media (min-width: 1800px) {
-    .main-screen {
-        background: url('../../images/bg/main-screen-bg.png') 90% top/cover no-repeat;
-    }
+    z-index: -1;
 }
