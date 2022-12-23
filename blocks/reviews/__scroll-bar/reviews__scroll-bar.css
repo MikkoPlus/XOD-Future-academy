@@ -1,0 +1,7 @@
+.reviews__scroll-bar {
+    max-width: 1180px;
+    margin: 30px auto 0;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+}

@@ -1,0 +1,12 @@
+.comment-card {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 20px 20px 18px;
+    width: 280px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.comment-card:last-of-type {
+    margin-right: 0;
+}
