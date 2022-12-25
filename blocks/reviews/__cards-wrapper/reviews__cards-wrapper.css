@@ -1,5 +1,8 @@
 .reviews__cards-wrapper {
-    width: 100%;
+    width: 1920px;
+    cursor: grab;
     margin-top: 46px;
     overflow: hidden;
+    position: relative;
+    min-height: 341px;
 }

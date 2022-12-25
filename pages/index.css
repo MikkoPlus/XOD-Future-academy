@@ -113,7 +113,9 @@
 @import url('../blocks/comment-card/comment-card.css');
 @import url('../blocks/comment-card/__header/comment-card__header.css');
 @import url('../blocks/comment-card/__avatar/comment-card__avatar.css');
+@import url('../blocks/comment-card/__name/comment-card__name.css');
 @import url('../blocks/comment-card/__descr/comment-card__descr.css');
 @import url('../blocks/comment-card/__comment/comment-card__comment.css');
+@import url('../blocks/comment-card/__raiting/comment-card__raiting.css');
 @import url('../blocks/comment-card/__star/comment-card__star.css');
 @import url('../blocks/comment-card/__total/comment-card__total.css');

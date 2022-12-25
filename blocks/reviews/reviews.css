@@ -1,7 +1,7 @@
 .reviews {
     margin: 0 auto;
     width: 100%;
-    background: url('../images/reviews/reviews-bg.png') center center/cover no-repeat;
+    background: url('../../images/reviews/reviews-bg.png') center center/cover no-repeat;
     background-color: #00093C;
     padding: 70px 0px 32px;
-}
+  }
