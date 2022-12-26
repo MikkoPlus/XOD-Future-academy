@@ -80,50 +80,67 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		let sliderLength = commentCard.length;
 
-			sliderInner.style.gridTemplateColumns = `repeat(${sliderLength}, 280px)`;
+		sliderInner.style.gridTemplateColumns = `repeat(${sliderLength}, 280px)`;
 
-	let scrollWidth = (100 / sliderLength) * (clientViewSlider / 300);
-	if (scrollWidth >= 100) {
-		scroll.style.width = 100 + '%';
+		let scrollWidth = (100 / sliderLength) * (clientViewSlider / 300);
+		
+
+		function boundCards() {
+			const containerRect = sliderWrapper.getBoundingClientRect();
+			const cardsRect = sliderInner.getBoundingClientRect();
+
+			if (parseInt(sliderInner.style.left) > 0) {
+				sliderInner.style.left = 0;
+			} else if (cardsRect.right < containerRect.right) {
+				sliderInner.style.left = `-${cardsRect.width - containerRect.width}px`;
+			}
+		}
+
+		if (sliderInner.offsetWidth > clientViewSlider) {
+
+			if(sliderInner.classList.contains('reviews__comments-inner_not-active')) {
+				sliderInner.classList.remove('reviews__comments-inner_not-active');
+			}
+			/* keep track of user's mouse down and up */
+			let isPressedDown = false;
+			/* x horizontal space of cursor from inner container */
+			let cursorXSpace;
+
+			let sliderInnerMaxOffsetLeft = sliderInner.offsetWidth - clientViewSlider;
+
+			sliderWrapper.addEventListener("mousedown", (e) => {
+				isPressedDown = true;
+				cursorXSpace = e.offsetX - sliderInner.offsetLeft;
+				sliderWrapper.style.cursor = "grabbing";
+			});
+
+			sliderWrapper.addEventListener("mouseup", () => {
+				sliderWrapper.style.cursor = "grab";
+			});
+
+			window.addEventListener("mouseup", () => {
+				isPressedDown = false;
+			});
+
+			sliderWrapper.addEventListener("mousemove", (e) => {
+				if (!isPressedDown) return;
+				e.preventDefault();
+				sliderInner.style.left = `${e.offsetX - cursorXSpace}px`;
+				boundCards();
+
+				let scrollSliderPercent = -(sliderInner.offsetLeft / sliderInnerMaxOffsetLeft) * 100;
+
+				scroll.style.width = scrollWidth  + '%';
+
+				scroll.style.left = scrollSliderPercent + '%';	
+				if (scrollSliderPercent >= scrollWidth) {
+					scroll.style.left = scrollSliderPercent - scrollWidth + '%';	
+				}
+			});
 	} else {
-		scroll.style.width = scrollWidth  + '%';
+		sliderInner.classList.add('reviews__comments-inner_not-active');
+		scroll.style.width = 100 + '%';
 	}
-
-	/* keep track of user's mouse down and up */
-	let isPressedDown = false;
-	/* x horizontal space of cursor from inner container */
-	let cursorXSpace;
-
-	sliderWrapper.addEventListener("mousedown", (e) => {
-	isPressedDown = true;
-	cursorXSpace = e.offsetX - sliderInner.offsetLeft;
-	sliderWrapper.style.cursor = "grabbing";
-	});
-
-	sliderWrapper.addEventListener("mouseup", () => {
-	sliderWrapper.style.cursor = "grab";
-	});
-
-	window.addEventListener("mouseup", () => {
-	isPressedDown = false;
-	});
-
-	sliderWrapper.addEventListener("mousemove", (e) => {
-	if (!isPressedDown) return;
-	e.preventDefault();
-	sliderInner.style.left = `${e.offsetX - cursorXSpace}px`;
-	boundCards();
-	});
-
-	function boundCards() {
-	const containerRect = sliderWrapper.getBoundingClientRect();
-	const cardsRect = sliderInner.getBoundingClientRect();
-
-	if (parseInt(sliderInner.style.left) > 0) {
-		sliderInner.style.left = 0;
-	} else if (cardsRect.right < containerRect.right) {
-		sliderInner.style.left = `-${cardsRect.width - containerRect.width}px`;
-	}
-	}}
+}
 	reviewSliderHandler ();
 });

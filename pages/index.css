@@ -107,6 +107,7 @@
 @import url('../blocks/reviews/__title/reviews__title.css');
 @import url('../blocks/reviews/__cards-wrapper/reviews__cards-wrapper.css');
 @import url('../blocks/reviews/__comments-inner/reviews__comments-inner.css');
+@import url('../blocks/reviews/__comments-inner/_not-active/reviews__comments-inner_not-active.css');
 @import url('../blocks/reviews/__scroll-bar/reviews__scroll-bar.css');
 @import url('../blocks/reviews/__scroll/reviews__scroll.css');
 

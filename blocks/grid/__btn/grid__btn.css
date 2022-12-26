@@ -15,7 +15,7 @@
 .grid__btn::after {
     content: '';
     position: absolute;
-    background: url('../images/icons/about-academi/arrow-right.svg') center center/contain no-repeat;
+    background: url('../../../images/icons/about-academi/arrow-right.svg') center center/contain no-repeat;
     height: 15px;
     width: 8px;
     top: 50%;
